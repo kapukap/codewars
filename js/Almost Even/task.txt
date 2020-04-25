@@ -1,0 +1,6 @@
+We need the ability to divide an unknown integer into a given number of even parts — or at least as even as they can be.
+The sum of the parts should be the original value, but each part should be an integer, and they should be as close as possible.
+
+How it works:
+splitInteger(number: 20, number: 6)  => object: [3, 3, 3, 3, 4, 4]
+splitInteger(number: 100, number: 8)  => object: [12, 12, 12, 12, 13, 13, 13, 13]
